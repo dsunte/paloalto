@@ -15,3 +15,16 @@ Second machine
 4   172.31.3.87
 5   172.31.0.213
 
+
+FIREWALL INFO - SECOND SITE
+
+1   ssh -i "newguac.pem" admin@ec2-18-212-89-178.compute-1.amazonaws.com
+2   ssh -i "newguac.pem" admin@ec2-54-157-202-50.compute-1.amazonaws.com
+3   ssh -i "newguac.pem" admin@ec2-54-209-67-64.compute-1.amazonaws.com
+4   ssh -i "newguac.pem" admin@ec2-54-175-243-35.compute-1.amazonaws.com
+5   ssh -i "newguac.pem" admin@ec2-54-242-187-85.compute-1.amazonaws.com
+
+
+Once the instance is running, connect to it using a SSH client with the private key file used to launch the instance. 
+For example: ssh -i admin@ Then use the PAN-OS CLI commands "configure", "set mgt-config users admin password" and 
+ "commit" commands to set the password.
