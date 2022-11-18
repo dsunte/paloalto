@@ -28,3 +28,13 @@ FIREWALL INFO - SECOND SITE
 Once the instance is running, connect to it using a SSH client with the private key file used to launch the instance. 
 For example: ssh -i admin@ Then use the PAN-OS CLI commands "configure", "set mgt-config users admin password" and 
  "commit" commands to set the password.
+
+
+Static IPS
+Site 1 and Site 2
+
+1. 172.31.30.72   172.31.19.9
+2. 172.31.28.136  172.31.20.236
+3. 172.31.31.126  172.31.23.32
+4. 172.31.21.137  172.31.26.101
+5. 172.31.21.146  172.31.24.239
