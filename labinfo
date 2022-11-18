@@ -6,3 +6,12 @@ FIREWALL INFO
 3   ssh -i "newguac.pem" admin@ec2-52-54-159-119.compute-1.amazonaws.com
 4   ssh -i "newguac.pem" admin@ec2-54-242-116-218.compute-1.amazonaws.com
 5   ssh -i "newguac.pem" admin@ec2-54-236-65-88.compute-1.amazonaws.com
+
+Second machine
+
+1   172.31.14.187
+2   172.31.6.233
+3   172.31.9.72
+4   172.31.3.87
+5   172.31.0.213
+
