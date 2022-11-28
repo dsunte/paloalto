@@ -7,5 +7,5 @@ FIREWALL INFO
 4   ssh -i "newguac.pem" admin@ec2-52-90-156-9.compute-1.amazonaws.com
 5   ssh -i "newguac.pem" admin@ec2-3-88-37-92.compute-1.amazonaws.com
 6   ssh -i "newguac.pem" admin@ec2-3-89-186-81.compute-1.amazonaws.com
-
+7   ssh -i "newguac.pem" admin@ec2-54-226-11-18.compute-1.amazonaws.com
 
