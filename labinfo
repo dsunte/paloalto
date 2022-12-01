@@ -1,11 +1,14 @@
 
 FIREWALL INFO
 
-1   ssh -i "newguac.pem" admin@ec2-54-160-146-116.compute-1.amazonaws.com
-2   ssh -i "newguac.pem" admin@ec2-54-197-170-181.compute-1.amazonaws.com
-3   ssh -i "newguac.pem" admin@ec2-34-233-126-25.compute-1.amazonaws.com
-4   ssh -i "newguac.pem" admin@ec2-52-90-156-9.compute-1.amazonaws.com
-5   ssh -i "newguac.pem" admin@ec2-3-88-37-92.compute-1.amazonaws.com
-6   ssh -i "newguac.pem" admin@ec2-3-89-186-81.compute-1.amazonaws.com
-7   ssh -i "newguac.pem" admin@ec2-54-226-11-18.compute-1.amazonaws.com
+1   ssh -i "newguac.pem" admin@ec2-18-234-233-15.compute-1.amazonaws.com
+2   ssh -i "newguac.pem" admin@ec2-54-147-158-147.compute-1.amazonaws.com
+3   ssh -i "newguac.pem" admin@ec2-3-208-21-220.compute-1.amazonaws.com
+4   ssh -i "newguac.pem" admin@ec2-54-221-77-100.compute-1.amazonaws.com
+5   ssh -i "newguac.pem" admin@ec2-34-229-165-65.compute-1.amazonaws.com
+6   ssh -i "newguac.pem" admin@ec2-52-91-138-46.compute-1.amazonaws.com
+7   ssh -i "newguac.pem" admin@ec2-54-221-145-109.compute-1.amazonaws.com
+
+Please configure: ssh -i <privatekey.pem> admin@<EIP or private IP of eth0> 
+Then use the PAN-OS CLI commands "configure", "set mgt-config users admin password" and "commit" commands to set the password.
 
